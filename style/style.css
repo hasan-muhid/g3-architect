@@ -110,6 +110,48 @@ nav{
         .banner-img {
             padding-bottom: 50px;
         }
+        /* team section design */
+        #team{
+           max-width:1200px;
+           margin: 0 auto;
+           align-items: center;
+           justify-content: center;
+           height: auto;
+           margin-top: 100px;
+           gap: 50px;
+           margin-bottom: 100px;
+          
+        }
+        .team-member-images{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 55%;
+        }
+        .team-member-images img{
+            width: 100%;
+        }
+        .team-content{
+            width: 45%;
+        }
+        .team-title{
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 3.6rem;
+        }
+        #first{
+            font-weight: 500;
+        }
+        .team-description{
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+
+     /* responsive desgin for mobile    */
 @media screen and (max-width: 576px) {
     .navbar{
         flex-direction: column;
