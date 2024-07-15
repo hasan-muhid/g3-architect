@@ -72,7 +72,8 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color: black;
+    color: #424242;
+    font-family: "Work Sans", sans-serif;
 }
 
 nav ul {
@@ -293,9 +294,36 @@ nav {
     font-weight: 600;
     color: #727272;
     text-align: center;
-
-
  }
+
+ /* Sponspor area style */
+#Sponspor{
+   max-width:1200px ;
+   margin: 0 auto;
+
+}
+.content h1{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.content p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.sponspor-images{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+
+
+
 /* responsive desgin for mobile    */
 @media screen and (max-width: 576px) {
 
